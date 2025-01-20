@@ -10,8 +10,6 @@ function adicionarAmigo(){
     }else{
         listaAmigos.push(nomeAmigo);
         limparCampo();
-         // console.log("nome cadastrado")
-         // console.log(listaAmigos);
         exibirNaLista();
     }   
 }
@@ -32,9 +30,7 @@ function sortearAmigo(){
         alert("Cadastre pelo menos 2 amigos")
     }else{
        let amigoSorteado = Math.floor(Math.random() * listaAmigos.length);
-       console.log(amigoSorteado);
        resultadoExibido.innerHTML = listaAmigos[amigoSorteado];
-
     }
 
 }
