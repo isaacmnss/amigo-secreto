@@ -4,7 +4,7 @@ let listaAmigos = [];
 
 
 function adicionarAmigo(){
-    let nomeAmigo = document.querySelector('input').value
+    let nomeAmigo = document.querySelector('input').value;
     if(nomeAmigo == ''){
         alert("Insira um nome válido");
     }else{
@@ -15,7 +15,7 @@ function adicionarAmigo(){
 }
 
 function exibirNaLista() {  
-    let listaExibida = document.getElementById('listaAmigos')
+    let listaExibida = document.getElementById('listaAmigos');
     listaExibida.innerHTML = '';
     for (let i = 0; i < listaAmigos.length; i++) {
         let itemLista = document.createElement('li');
@@ -27,7 +27,7 @@ function exibirNaLista() {
 function sortearAmigo(){
     let resultadoExibido = document.getElementById('resultado');
     if (listaAmigos.length < 1){
-        alert("Cadastre pelo menos 2 amigos")
+        alert("Cadastre pelo menos 2 amigos");
     }else{
        let amigoSorteado = Math.floor(Math.random() * listaAmigos.length);
        resultadoExibido.innerHTML = listaAmigos[amigoSorteado];
