@@ -11,7 +11,9 @@
 ## 📕 Descrição
 Este projeto foi apresentado como um desafio para exercitar lógica de programação durante uma das trilhas de aprendizado do programa Oracle Next Education. 
 <br/>
+<br/>
 Dado o foco em exercitar a lógica, foi fornecido um projeto com o HTML e CSS prontos, para que os alunos foquem em fazer apenas a parte de JavaScript.
+<br/>
 <br/>
 Durante o projeto reforcei conceitos como arrays, loops, e funções em JavaScript
 
