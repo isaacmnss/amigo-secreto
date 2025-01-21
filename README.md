@@ -5,7 +5,7 @@
     alt="Imagem do projeto em funcionamento"
     title="HTML" 
     width="700px"  
-    src="![Image](https://github.com/user-attachments/assets/41d1ab58-dbfe-4351-ac8c-aac616e1411b)"
+    src="assets\imagem-do-projeto.png"
 />
 
 ## 📕 Descrição
