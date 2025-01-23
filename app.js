@@ -25,7 +25,7 @@ function exibirNaLista() {
 function sortearAmigo(){
     let resultadoExibido = document.getElementById('resultado');
     if (listaAmigos.length < 1){
-        alert("Cadastre pelo menos 2 amigos");
+        alert("Erro: nenhum nome cadastrado");
     }else{
        let amigoSorteado = Math.floor(Math.random() * listaAmigos.length);
        resultadoExibido.innerHTML = listaAmigos[amigoSorteado];
